@@ -20,9 +20,9 @@ int main()
 
     // Solicitando números inteiros para realizar a operação
     printf("Digite o primeiro número:\n");
-    scanf("%d", &inputPrimeiroNumero);
+    scanf("%f", &inputPrimeiroNumero);
     printf("Digite o segundo número:\n");
-    scanf("%d", &inputSegundoNumero);
+    scanf("%f", &inputSegundoNumero);
 
     // Switch case responsável pela seleção de operação
     switch (inputOperacao)
